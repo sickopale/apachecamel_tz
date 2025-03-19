@@ -1,0 +1,6 @@
+org\acme\tz\camel\model\ObjectFactory.class
+org\acme\tz\camel\MyApplication.class
+org\acme\tz\camel\model\Item.class
+org\acme\tz\camel\errorHandler\ErrorHandlerConfig.class
+org\acme\tz\camel\model\Order.class
+org\acme\tz\camel\routes\OrderRoute.class

@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  camel-spring:
+    build: 
+      context: ./camel-spring
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    network_mode: host
+
+  camel-tz:
+    build:
+      context: ./camel_tz
+      dockerfile: Dockerfile
+    ports:
+      - "8082:8080"
+    network_mode: host
+
